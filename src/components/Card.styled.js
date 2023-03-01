@@ -94,12 +94,12 @@ export const Button = styled.button`
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 0 auto;
   padding-bottom: 14px;
   padding-top: 14px;
-  padding-left: 56px;
-  padding-right: 56px;
-  background: #ebd8ff;
+  padding-left: 28px;
+  padding-right: 28px;
+  min-width: 196px;
+  background: ${p => (p.color === 'true' ? '#ebd8ff' : '#5CD3A8')};
   border-radius: 10.3108px;
   border-style: none;
   box-shadow: 0px 3.43693px 3.43693px rgba(0, 0, 0, 0.25);
