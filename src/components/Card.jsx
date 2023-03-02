@@ -32,13 +32,8 @@ export const Card = ({ id, tweets, followers, avatar }) => {
   };
 
   const formatDisplayString = str => {
-    const leftPart = str
-      .toLocaleString()
-      .split('')
-      .slice(0, 3)
-      .join('')
-      .split();
-    const rightPart = str.toLocaleString().split('').slice(4).join('').split();
+    const leftPart = str.toString().split('').slice(0, 3).join('').split();
+    const rightPart = str.toString().split('').slice(3).join('').split();
     return leftPart.concat(rightPart).join();
   };
 
