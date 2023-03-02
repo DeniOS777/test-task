@@ -4,10 +4,6 @@ import 'modern-normalize';
 export const GlobalStyle = createGlobalStyle`
 
 body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
   font-family: 'Montserrat';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

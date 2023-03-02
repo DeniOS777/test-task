@@ -1,6 +1,7 @@
 import styled from 'styled-components';
+import circle from '../images/Ellipse.png';
 
-export const UserCard = styled.div`
+export const UserCard = styled.li`
   position: relative;
   display: flex;
   flex-direction: column;
@@ -52,17 +53,30 @@ export const WrapAvatar = styled.div`
   top: 178px;
   display: flex;
   justify-content: center;
-  align-items: flex-end;
+  align-items: center;
   width: 80px;
   height: 80px;
   background-color: #5736a3;
-  border: 8px solid #ebd8ff;
   border-radius: 50%;
   overflow: hidden;
+
+  &::before {
+    content: 'x';
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: block;
+    width: 80px;
+    height: 80px;
+    background-image: url(${circle});
+    background-position: top;
+    background-repeat: no-repeat;
+  }
 `;
 
 export const Avatar = styled.img`
-  max-width: 100%;
+  display: block;
+  width: 63px;
   height: auto;
 `;
 
@@ -99,7 +113,7 @@ export const Button = styled.button`
   padding-left: 28px;
   padding-right: 28px;
   min-width: 196px;
-  background: ${p => (p.color === 'true' ? '#ebd8ff' : '#5CD3A8')};
+  background: ${({ color }) => (color === 'true' ? '#ebd8ff' : '#5CD3A8')};
   border-radius: 10.3108px;
   border-style: none;
   box-shadow: 0px 3.43693px 3.43693px rgba(0, 0, 0, 0.25);

@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "user": "Tony",
+    "tweets": 1050,
+    "followers": 120300,
+    "avatar": ""
+  },
+  {
+    "id": 2,
+    "user": "Poly",
+    "tweets": 550,
+    "followers": 100100,
+    "avatar": ""
+  },
+  {
+    "id": 3,
+    "user": "Mango",
+    "tweets": 777,
+    "followers": 100500,
+    "avatar": ""
+  },
+  {
+    "id": 4,
+    "user": "Jeck",
+    "tweets": 2050,
+    "followers": 150100,
+    "avatar": ""
+  },
+  {
+    "id": 5,
+    "user": "Peter",
+    "tweets": 3050,
+    "followers": 170170,
+    "avatar": ""
+  },
+  {
+    "id": 6,
+    "user": "Bill",
+    "tweets": 570,
+    "followers": 100300,
+    "avatar": ""
+  }
+]

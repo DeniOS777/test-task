@@ -1,8 +1,7 @@
 import React from 'react';
-import { Card } from './components/Card';
+import users from './users.json';
+import { CardList } from './components/CardList';
 
-const App = () => {
-  return <Card />;
+export const App = () => {
+  return <CardList users={users} />;
 };
-
-export default App;
